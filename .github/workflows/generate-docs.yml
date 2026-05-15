@@ -20,7 +20,7 @@ jobs:
     - name: Instalar Gemini
       run: |
         pip install --upgrade pip
-        pip install google-generativeai
+        pip install google-genai
 
     - name: Ejecutar script
       env:
