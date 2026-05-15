@@ -1,9 +1,7 @@
 import os
-import google.generativeai as genai
+from google import genai
 
-genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
-
-model = genai.GenerativeModel("gemini-1.5-flash-latest")
+client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 
 def read_files():
     files = []
@@ -29,22 +27,24 @@ def read_files():
 
 def analyze(path, content):
     prompt = f"""
-Sos un experto en Java y Tomcat.
-
-Analizá este archivo:
+Sos experto en Java y Tomcat.
 
 Archivo: {path}
 
 Código:
 {content}
 
-Generá documentación en Markdown con:
+Generar documentación en Markdown:
 - Qué hace
 - Métodos principales
-- Cómo se conecta con el sistema
+- Relaciones
 """
 
-    response = model.generate_content(prompt)
+    response = client.models.generate_content(
+        model="gemini-2.0-flash",
+        contents=prompt
+    )
+
     return response.text
 
 def main():
