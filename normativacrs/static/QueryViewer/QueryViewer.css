@@ -1,0 +1,316 @@
+.gx-qv-loading{
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-image: url(indicator.gif);
+}
+
+.gx-qv-footer{
+	position: relative;
+}
+
+.gx-qv-footer-slider{
+	position: absolute;
+	top: 0px;
+	left:0px;
+	z-index:1;
+}
+
+.gx-qv-footer-range{
+	opacity: 0.5;
+}
+
+.gx-qv-footer-left-cursor{
+	float: left;
+	background-image: url(SliderLeft.png);
+	cursor: ew-resize;
+}
+
+.gx-qv-footer-right-cursor{
+	float: right;
+	background-image: url(SliderRight.png);
+	cursor: ew-resize;
+}
+
+.gx-qv-footer-center{
+	position: relative;
+	background-image: url(SliderCenter.png);
+	cursor: pointer;
+}
+
+.gx-qv-footer-chart{
+	position: absolute;
+	top: 0px;
+	left:0px;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color:lightgray;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color:lightgray;
+}
+
+.highcharts-color-0 {
+	fill: #afd8f8;
+	stroke: #afd8f8;
+}
+
+.highcharts-color-1 {
+	fill: #f6bd0f;
+	stroke: #f6bd0f;
+}
+
+.highcharts-color-2 {
+	fill: #8bba00;
+	stroke: #8bba00;
+}
+
+.highcharts-color-3 {
+	fill: #ff8e46;
+	stroke: #ff8e46;
+}
+
+.highcharts-color-4 {
+	fill: #008e8e;
+	stroke: #008e8e;
+}
+
+.highcharts-color-5 {
+	fill: #d64646;
+	stroke: #d64646;
+}
+
+.highcharts-color-6 {
+	fill: #8e468e;
+	stroke: #8e468e;
+}
+
+.highcharts-color-7 {
+	fill: #588526;
+	stroke: #588526;
+}
+
+.highcharts-color-8 {
+	fill: #b3aa00;
+	stroke: #b3aa00;
+}
+
+.highcharts-color-9 {
+	fill: #008ed6;
+	stroke: #008ed6;
+}
+
+.highcharts-color-10 {
+	fill: #9d080d;
+	stroke: #9d080d;
+}
+
+.highcharts-color-11 {
+	fill: #a186be;
+	stroke: #a186be;
+}
+
+.highcharts-color-12 {
+	fill: #afc7f8;
+	stroke: #afc7f8;
+}
+
+.highcharts-color-13 {
+	fill: #f6f30f;
+	stroke: #f6f30f;
+}
+
+.highcharts-color-14 {
+	fill: #60ba00;
+	stroke: #60ba00;
+}
+
+.highcharts-color-15 {
+	fill: #ffb946;
+	stroke: #ffb946;
+}
+
+.highcharts-color-16 {
+	fill: #006d8e;
+	stroke: #006d8e;
+}
+
+.highcharts-color-17 {
+	fill: #d66846;
+	stroke: #d66846;
+}
+
+.highcharts-color-18 {
+	fill: #8e467d;
+	stroke: #8e467d;
+}
+
+.highcharts-color-19 {
+	fill: #428526;
+	stroke: #428526;
+}
+
+.highcharts-color-20 {
+	fill: #92b300;
+	stroke: #92b300;
+}
+
+.highcharts-color-21 {
+	fill: #005bd6;
+	stroke: #005bd6;
+}
+
+.highcharts-color-22 {
+	fill: #9d2608;
+	stroke: #9d2608;
+}
+
+.highcharts-color-23 {
+	fill: #ae86be;
+	stroke: #ae86be;
+}
+
+.highcharts-color-24 {
+	fill: #afb6f8;
+	stroke: #afb6f8;
+}
+
+.highcharts-color-25 {
+	fill: #c2f60f;
+	stroke: #c2f60f;
+}
+
+.highcharts-color-26 {
+	fill: #34ba00;
+	stroke: #34ba00;
+}
+
+.highcharts-color-27 {
+	fill: #ffe546;
+	stroke: #ffe546;
+}
+
+.highcharts-color-28 {
+	fill: #004b8e;
+	stroke: #004b8e;
+}
+
+.highcharts-color-29 {
+	fill: #d68a46;
+	stroke: #d68a46;
+}
+
+.highcharts-color-30 {
+	fill: #8e466c;
+	stroke: #8e466c;
+}
+
+.highcharts-color-31 {
+	fill: #2b8526;
+	stroke: #2b8526;
+}
+
+.highcharts-color-32 {
+	fill: #68b300;
+	stroke: #68b300;
+}
+
+.highcharts-color-33 {
+	fill: #0029d6;
+	stroke: #0029d6;
+}
+
+.highcharts-color-34 {
+	fill: #9d4908;
+	stroke: #9d4908;
+}
+
+.highcharts-color-35 {
+	fill: #bb86be;
+	stroke: #bb86be;
+}
+
+.highcharts-point-select {
+  fill: #cccccc !important;
+  stroke: #000000 !important;
+}
+
+.highcharts-background {
+	stroke-width: 0;
+}
+
+.highcharts-no-background .highcharts-background {
+	fill: none !important;
+}
+
+.highcharts-data-label-connector {
+	fill: none !important;
+}
+
+.highcharts-no-axis-line .highcharts-axis-line {
+	stroke: none !important;
+}
+
+.highcharts-no-grid-line .highcharts-grid-line {
+	stroke: none !important;
+}
+
+.highcharts-yes-grid-line .highcharts-grid-line {
+	stroke-width: 1px !important;
+}
+
+.highcharts-plot-band, .highcharts-pane {
+	stroke-width: 0 !important;
+	fill-opacity: 0.3 !important;
+}
+
+.highcharts-dashed-plot-line {
+	stroke-dasharray: 1, 1 !important;
+}
+
+.highcharts-dashed-series-line {
+	stroke-dasharray: 1, 4 !important;
+}
+
+.highcharts-solidgauge-series .highcharts-graph {
+	stroke-width: 0 !important;
+}
+
+.QVTimelineHeaderContainer {
+	background-color: #FFFFFF;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	overflow: hidden;
+}
+
+.qv-card-element-value {
+	font-size: 36px;
+	line-height: normal;
+}
+
+.qv-card-element-time {
+	font-style: italic;
+}
+
+.qv-card-max-and-min-value {
+	font-size: 18px;
+	line-height: normal;
+}
+
+.qv-card-max-and-min-time {
+	font-style: italic;
+}
+
+.qv-card-upward-trend {
+	background-image: url(UpwardTrend.png);
+	background-size: 100% 100%;
+}
+
+.qv-card-downward-trend {
+	background-image: url(DownwardTrend.png);
+	background-size: 100% 100%;
+}
+
+.qv-card-sideward-trend {
+	background-image: url(SidewardTrend.png);
+	background-size: 100% 100%;
+}

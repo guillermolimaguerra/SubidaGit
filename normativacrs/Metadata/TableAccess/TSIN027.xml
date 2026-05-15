@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="4a4bfb6c-6772-40a8-a308-4f05681011d5">
+  <Table name="SIN021" />
+  <Table name="SIN027" />
+</Dependencies>

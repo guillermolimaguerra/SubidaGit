@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="95395a18-cfde-c19d-eb02-33efa70596f1">
+  <Table name="SIN002" />
+  <Table name="SIN004" />
+  <Table name="SIN005" />
+  <Table name="SIN010" />
+  <Table name="SIN011" />
+  <Table name="SIN012" />
+  <Table name="SIN013" />
+</Dependencies>

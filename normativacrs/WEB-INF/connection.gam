@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<ConnectionCollection>
+  <Connection xmlns="">
+    <Name>Normativa</Name>
+    <Repository>6e62f130-29b3-4647-9b5c-c861428b5d3b</Repository>
+    <UserName>cFzzQdx5d3t+H2kvW5fUUA==</UserName>
+    <UserPassword>ZK8hBQnLmp2+vBlnDaLVag==</UserPassword>
+    <Type>LAN</Type>
+    <Language />
+  </Connection>
+</ConnectionCollection>

@@ -1,0 +1,212 @@
+.oat_winrect_container {
+	border-radius: 3px;
+	/*padding: 2px;*/
+	box-shadow: 3px 3px 3px #999999;
+	-webkit-box-shadow: 3px 3px 3px #999999;
+	background:  /*url("")*/ repeat-x scroll 0 0 #FFFFFF;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	/*line-height: 1;*/
+}
+
+.oat_winrect_content {
+	/*padding: 2px;*/
+	position: relative;
+	margin-bottom: 16px;
+	color: #404040;
+	font-family: Verdana;
+	font-size: 10pt;
+}
+
+.oat_winrect_title {
+	font: menu;
+	height: 12px;
+	position: relative;
+	text-align: center;
+}
+
+.oat_winrect_caption {
+	color: #000000;
+	/*font-weight: bold;*/
+	position: relative;
+	top: 3px;
+	font-family: Verdana;
+	padding-right: 5px;
+	font-size: 10pt;
+	margin-right: 10px;
+}
+
+.oat_winrect_status {
+	height: 16px;
+	bottom: 0px;
+	left: 2px;
+	position: absolute;
+	width: 100%;
+	font-size: 0.8em;
+}
+
+.oat_winrect_blankSpace {
+	height: 100%;
+	position: relative;
+}
+
+.oat_winrect_close_b {
+	float: right;
+	width: 22px;
+	height: 22px;
+	cursor: pointer;
+	position: relative;
+	right: -9px;
+	top: -9px;
+	margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.oat_winrect_resize_b {
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	bottom: 2px;
+	right: 2px;
+	/*background-image: url("../images/MacWin_resize.gif");*/
+	background-repeat: no-repeat;	/* ie hack */
+	background-position: bottom right;	/* ie hack */
+}
+
+.oat_winrect_close_b {
+	background-image: url("../images/RectWin_close.png");
+	background-size: 22px 22px;
+	background-repeat:no-repeat;
+}
+
+.oat_winrect_container div.oat_anchor_arrow_bottomright {
+	position: absolute;
+	bottom: -35px;	right: 20px;	width: 30px;	height: 35px;
+	/*background-image: url("../images/RectWin_rb.gif");*/
+}
+.oat_winrect_container div.oat_anchor_arrow_bottomleft {
+	position: absolute;
+	bottom: -35px;	left: 20px;	width: 30px;	height: 35px;
+	/*background-image: url("../images/RectWin_lb.gif");*/
+}
+.oat_winrect_container div.oat_anchor_arrow_topright {
+	position: absolute;
+	top: -35px;	right: 20px;	width: 30px;	height: 35px;
+	/*background-image: url("../images/RectWin_rt.gif");*/
+}
+.oat_winrect_container div.oat_anchor_arrow_topleft {
+	position: absolute;
+	top: -35px;	left: 20px;	width: 30px;	height: 35px;
+	/*background-image: url("../images/RectWin_lt.gif");*/
+}
+
+.oat_winrect_container label {
+	font-weight: normal;
+	margin-bottom: 0px;
+}
+
+.oat_winrect_container input[type="radio"]{
+	 margin-right: 5px;
+}
+
+.oat_winrect_content input{
+	font-family: Verdana;
+	font-size: 10pt;
+	color: #404040;
+}
+
+.oat_winrect_container hr{
+	background-color: #FFFFFF;
+    color: #FFFFFF;
+	width: 100%;
+	margin-bottom: 5px;
+    margin-top: 0px;
+}
+
+.upper_container{
+	margin: 5px 20px 10px;
+}
+
+.down_container{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#exportOptionsContainer div {
+	/*margin-left: 20px;*/
+}
+
+#exportOptionsContainer{
+	/*min-width: 350px; */
+	/*width: 380px;*/
+}
+
+#exportOptionsContainerGrid{
+	width: 400px;
+}
+.export_item_div {
+	/*cursor: pointer;*/
+	margin-bottom: 13px;
+	width: 100%;
+	background-color: transparent;
+}
+
+/*.export_item_div:hover {
+	background-color: #EBEBEB;
+}*/
+.div_label_win{
+	margin-bottom: 13px;
+    margin-top: 10px;
+}
+
+
+/*search input style*/
+.search_input{
+	/*width: 152px;*/
+	margin-bottom: 10px;
+	color: #333333;
+    text-decoration: none;
+	margin-left: 3px;
+    
+	-moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #f5f5f5;
+    background-image: linear-gradient(to bottom, #ffffff, #f9f9f9);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) #b3b3b3;
+    border-image: none;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    color: #333333;
+    
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+   
+    padding: 3px 8px;
+   
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+	
+}
+
+.div_filter_input {
+	text-align: center;
+}
+
+.move_item_img {
+	padding-left: 10px;
+	cursor: pointer;
+	margin-bottom: 5px;
+}
+
+.download_file_img {
+	background: url("download_file.png") no-repeat scroll 0 0 transparent;
+	padding-left: 20px;
+	cursor: pointer;
+	margin-bottom: 5px;
+}
+
